@@ -12,16 +12,16 @@ const Routes = () => {
   return (
     <BrowserRouter>
       <ErrorBoundary>
-      <ScrollToTop />
-      <RouterRoutes>
-        {/* Define your route here */}
-        <Route path="/" element={<CheckoutSanctuary />} />
-        <Route path="/lounge-collection" element={<LoungeCollection />} />
-        <Route path="/product-detail-page" element={<ProductDetailPage />} />
-        <Route path="/checkout-sanctuary" element={<CheckoutSanctuary />} />
-        <Route path="/homepage" element={<Homepage />} />
-        <Route path="*" element={<NotFound />} />
-      </RouterRoutes>
+        <ScrollToTop />
+        <RouterRoutes>
+          {/* Fixed: Homepage as default route */}
+          <Route path="/" element={<Homepage />} />  
+          <Route path="/lounge-collection" element={<LoungeCollection />} />
+          <Route path="/product-detail-page" element={<ProductDetailPage />} />
+          <Route path="/checkout-sanctuary" element={<CheckoutSanctuary />} />
+          {/* Removed redundant "/homepage" route (use "/" instead) */}
+          <Route path="*" element={<NotFound />} />
+        </RouterRoutes>
       </ErrorBoundary>
     </BrowserRouter>
   );

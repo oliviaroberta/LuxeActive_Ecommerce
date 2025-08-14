@@ -47,13 +47,13 @@ const HeroSection = () => {
   const getCollectionLink = (collection) => {
     switch (collection) {
       case 'performance':
-        return '/performance-collection';
+        return '/lounge-collection';
       case 'lounge':
         return '/lounge-collection';
       case 'fit':
-        return '/size-fit-studio';
+        return '/lounge-collection';
       default:
-        return '/performance-collection';
+        return '/lounge-collection';
     }
   };
 

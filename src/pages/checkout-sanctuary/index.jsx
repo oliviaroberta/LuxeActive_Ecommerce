@@ -28,7 +28,7 @@ const CheckoutSanctuary = () => {
       size: "M",
       price: 88,
       quantity: 1,
-      image: "https://images.unsplash.com/photo-1506629905607-d5b4671b4b3a?w=400&h=400&fit=crop"
+      image: "/assets/images/IMG-20250812-WA0016.jpg"
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ const CheckoutSanctuary = () => {
       size: "M",
       price: 68,
       quantity: 2,
-      image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=400&fit=crop"
+      image: "/assets/images/IMG-20250812-WA0021.jpg"
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const CheckoutSanctuary = () => {
       size: "M",
       price: 128,
       quantity: 1,
-      image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=400&fit=crop"
+      image: "/assets/images/IMG-20250812-WA0013.jpg"
     }
   ]);
 
