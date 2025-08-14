@@ -21,7 +21,7 @@ A high-performance e-commerce platform for luxury activewear, built with modern 
 
 | Category        | Technologies                          |
 |-----------------|---------------------------------------|
-| Core            | React 18, TypeScript                  |
+| Core            | React 18, JavaScript                  |
 | Styling         | Tailwind CSS, CSS Modules             |
 | State           | Redux Toolkit, React Context          |
 | Routing         | React Router 6                        |
