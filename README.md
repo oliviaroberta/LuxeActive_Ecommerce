@@ -35,7 +35,7 @@ A high-performance e-commerce platform for luxury activewear, built with modern 
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/LuxeActive.git
+git clone https://github.com/oliviaroberta/LuxeActive_Ecommerce.git
 cd LuxeActive
 npm install
 npm run dev
